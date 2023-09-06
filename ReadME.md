@@ -18,11 +18,10 @@ This project is a comprehensive exploration of the Shot Creating Actions (SCA) a
 
 ## Power BI Visualizations
 
-![Screenshot (32)](https://github.com/AAMIRP9/Data-Analysis-Portfolio/assets/91920656/83f9ac90-be17-4b7f-9b79-eae4ed2e908d)
+![Screenshot (32)](https://github.com/AAMIRP9/Data-Analysis-Portfolio/assets/91920656/88a630ef-1333-4e76-80d9-16e5f0361e44)
+![Screenshot (33)](https://github.com/AAMIRP9/Data-Analysis-Portfolio/assets/91920656/c413b78f-d60e-4b58-8924-071c8d9894c7)
+![Screenshot (34)](https://github.com/AAMIRP9/Data-Analysis-Portfolio/assets/91920656/64b21412-494c-4a6e-8816-3da7b63fb5f8)
 
-![Screenshot (33)](https://github.com/AAMIRP9/Data-Analysis-Portfolio/assets/91920656/1e67e246-460d-4600-a26f-782bd69f1a4a)
-
-![Screenshot (34)](https://github.com/AAMIRP9/Data-Analysis-Portfolio/assets/91920656/eeda7992-389d-4263-be02-a2d0a007b6e0)
 
 ### Limitations
 
