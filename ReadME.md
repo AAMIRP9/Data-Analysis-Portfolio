@@ -6,11 +6,22 @@ This project is a comprehensive exploration of the Shot Creating Actions (SCA) a
 
 ### Data Sources 
 
+[Squad Goal and Shot Creation 2022-2023 Premier League](https://fbref.com/en/comps/9/2022-2023/gca/2022-2023-Premier-League-Stats) 
+[Player Goal and Shot Creation 2022-2023 Premier League](https://fbref.com/en/comps/9/2022-2023/gca/2022-2023-Premier-League-Stats)
 
+## Objectives
 
-## Questions
+- Evaluate which Premier League teams had the highest levels of shot and goal creation in the 2022/2023 season.
+- Identify standout players who contribute significantly to their teams' attacking threat.
+- Analyze the types of actions ( passes, shots, take ons, defensive actions) that lead to successful goal scoring opportunities.
+- Present findings in a visually engaging manner to provide valuable insights for fans, analysts, and sports enthusiasts.
 
+## Tools & Components 
 
+- SQL Analysis: Utilizing SQL queries to extract and manipulate the SCA and GCA data for teams and players.
+- KPI Calculation: Deriving Key Performance Indicators (KPIs) to assess player and team contributions.
+- Comparative Analysis: Comparing and contrasting teams and players to reveal top performers.
+- Power BI Visualization: Creating dynamic and interactive visualizations using Power BI to represent statistics, trends, and insights.
 
 ## Key Insights 
 
