@@ -1,32 +1,32 @@
--- Total SCA for EPL 22/23 Teams
+-- Total SCA for Teams
 
 SELECT Team, SUM(SCA) AS TotalSCA
 FROM [TEAM STATS 2022_2023]
 GROUP BY Team
 ORDER BY TotalSCA DESC;
 
--- Total GCA for EPL 22/23 Teams 
+-- Total GCA for Teams 
 
 SELECT Team, SUM(GCA) AS TotalGCA
 FROM [TEAM STATS 2022_2023]
 GROUP BY Team
 ORDER BY TotalGCA DESC;
 
--- Total SCA P90 For EPL 22/23 Teams 
+-- Total SCA P90 for Teams 
 
 SELECT Team, SUM(SCA90) AS TotalSCA_P90
 FROM [TEAM STATS 2022_2023]
 GROUP BY Team
 ORDER BY TotalSCA_P90 DESC;
 
--- Total GCA P90 For EPL 22/23 Teams
+-- Total GCA P90 for Teams
 
 SELECT Team, SUM(GCA90) AS TotalGCA_P90
 FROM [TEAM STATS 2022_2023]
 GROUP BY Team
 ORDER BY TotalGCA_P90 DESC;
 
--- Top SCA Teams & Percentage of Dead Pass Contribution 
+-- Percentage of SCA Contribution from Dead Ball situations for Top 5 Teams
 
 WITH TopSCATeams AS (
 	SELECT Team, SUM(SCA) AS TotalSCA
@@ -46,7 +46,7 @@ JOIN TopSCATeams tg ON pp.Team = tg.Team
 GROUP BY tg.Team, TotalSCA
 ORDER BY TotalSCA DESC;
 
--- TOP SCA Teams & Percentage of Live Pass Contribution 
+-- Percentage of SCA Contribution from Live Ball situations for Top 5 Teams
 
 WITH TopSCATeams AS (
 	SELECT Team, SUM(SCA) AS TotalSCA
@@ -66,7 +66,7 @@ JOIN TopSCATeams tg ON pp.Team = tg.Team
 GROUP BY tg.Team, TotalSCA
 ORDER BY TotalSCA DESC;
 
--- TOP SCA Teams & Percentage of Take Ons Contribution 
+-- Percentage of SCA Contribution from Take On situations for Top 5 Teams 
 
 WITH TopSCATeams AS (
 	SELECT Team, SUM(SCA) AS TotalSCA
@@ -86,7 +86,7 @@ JOIN TopSCATeams tg ON pp.Team = tg.Team
 GROUP BY tg.Team, TotalSCA
 ORDER BY TotalSCA DESC;
 
--- TOP SCA Teams & Percentage of Shots Contribution 
+-- Percentage of SCA Contribution from Shots Taken for Top 5 Teams 
 
 WITH TopSCATeams AS (
 	SELECT Team, SUM(SCA) AS TotalSCA
@@ -106,7 +106,7 @@ JOIN TopSCATeams tg ON pp.Team = tg.Team
 GROUP BY tg.Team, TotalSCA
 ORDER BY TotalSCA DESC;
 
--- TOP SCA Teams & Percentage of Fouls Contribution 
+-- Percentage of SCA Contribution from Fouls Drawn for Top 5 Teams 
 
 WITH TopSCATeams AS (
 	SELECT Team, SUM(SCA) AS TotalSCA
@@ -126,7 +126,7 @@ JOIN TopSCATeams tg ON pp.Team = tg.Team
 GROUP BY tg.Team, TotalSCA
 ORDER BY TotalSCA DESC;
 
--- TOP SCA Teams & Percentage of Defensice Actions Contribution 
+-- Percentage of SCA Contribution from Defensive Actions for Top 5 Teams  
 
 WITH TopSCATeams AS (
 	SELECT Team, SUM(SCA) AS TotalSCA
@@ -146,7 +146,7 @@ JOIN TopSCATeams tg ON pp.Team = tg.Team
 GROUP BY tg.Team, TotalSCA
 ORDER BY TotalSCA DESC;
 
--- Top GCA Teams & Percentage of Dead Pass Contribution 
+-- Percentage of GCA Contribution from Dead Ball situations for Top 5 Teams 
 
 WITH TopGCATeams AS (
 	SELECT Team, SUM(GCA) AS TotalGCA
@@ -166,7 +166,7 @@ JOIN TopGCATeams tg ON pp.Team = tg.Team
 GROUP BY tg.Team, TotalGCA
 ORDER BY TotalGCA DESC;
 
--- Top GCA Teams & Percentage of Live Pass Contribution 
+-- Percentage of GCA Contribution from Live Ball situations for Top 5 Teams 
 
 WITH TopGCATeams AS (
 	SELECT Team, SUM(GCA) AS TotalGCA
@@ -186,7 +186,7 @@ JOIN TopGCATeams tg ON pp.Team = tg.Team
 GROUP BY tg.Team, TotalGCA
 ORDER BY TotalGCA DESC;
 
--- Top GCA Teams & Percentage of Take Ons Contribution 
+-- Percentage of GCA Contribution from Take On situations for Top 5 Teams 
 
 WITH TopGCATeams AS (
 	SELECT Team, SUM(GCA) AS TotalGCA
@@ -206,7 +206,7 @@ JOIN TopGCATeams tg ON pp.Team = tg.Team
 GROUP BY tg.Team, TotalGCA
 ORDER BY TotalGCA DESC;
 
--- Top GCA Teams & Percentage of Shots Contribution 
+-- Percentage of GCA Contribution from Shots Taken for Top 5 Teams 
 
 WITH TopGCATeams AS (
 	SELECT Team, SUM(GCA) AS TotalGCA
@@ -226,7 +226,7 @@ JOIN TopGCATeams tg ON pp.Team = tg.Team
 GROUP BY tg.Team, TotalGCA
 ORDER BY TotalGCA DESC;
 
--- Top GCA Teams & Percentage of Fouls Contribution 
+-- Percentage of GCA Contribution from Fouls Drawn for Top 5 Teams 
 
 WITH TopGCATeams AS (
 	SELECT Team, SUM(GCA) AS TotalGCA
@@ -246,7 +246,7 @@ JOIN TopGCATeams tg ON pp.Team = tg.Team
 GROUP BY tg.Team, TotalGCA
 ORDER BY TotalGCA DESC;
 
--- Top GCA Teams & Percentage of Defensive Actions Contribution 
+-- Percentage of GCA Contribution from Defensive Actions for Top 5 Teams 
 
 WITH TopGCATeams AS (
 	SELECT Team, SUM(GCA) AS TotalGCA
