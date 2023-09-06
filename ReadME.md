@@ -25,7 +25,13 @@ This project is a comprehensive exploration of the Shot Creating Actions (SCA) a
 
 ## Key Insights 
 
-
+- Bruno Fernandes had the highest SCA in the 2022/2023 season, with 219.
+- Kevin De Bruyne had the highest GCA in the 2022/2023 season, with 31.
+- Leandro Trossard had the highest SCA and GCA per 90 minutes played in the 2022/2023 season, with 6.8 SCA P90 and 1.49 GCA P90.
+- Majority of the SCA and GCA in the 2022/2023 season was from Defenders.
+- Solly March had the highest SCA from take ons, with 19.
+- Kieran Trippier had the highest SCA from dead ball situations, with 94.
+- Manchester City had the highest SCA and GCA in the 2022&2023 season, with 1099 and 168. 
 
 ## Power BI Visualizations
 
@@ -37,7 +43,17 @@ This project is a comprehensive exploration of the Shot Creating Actions (SCA) a
 
 ### Limitations
 
-
+- SCA and GCA statistics may not fully capture the influence of team dynamics, strategies, or tactical changes on individual player performance.
+- Injuries or suspensions of key players can significantly affect a team's SCA and GCA metrics, potentially leading to fluctuations in the data.
+- Contextual factors like weather conditions, pitch quality, and opponent strength can impact a player's performance, which are not considered in this analysis. 
+- Players in different positions have distinct roles, which can affect their SCA and GCA metrics. Failing to account for these positional differences may lead to skewed analysis.
+- Team performance can impact individual player statistics. A struggling team may have fewer opportunities for goal creation, affecting certain players' metrics.
 
 ### Improvements 
+
+- Incorporating more advanced metrics like xG (Expected Goals) and xA (Expected Assists) to provide a deeper understanding of player and team performance in creating and scoring goals.
+- Positional analysis to compare players within the same role (e.g., central midfielders) to gain insights into which positions excel in goal creation and goal-scoring opportunities.
+- Analyze how SCA and GCA metrics evolve over the course of the season for players and teams to identify trends and changes in performance.
+- Compare the SCA and GCA metrics of Premier League teams and players to those of other top leagues in Europe or historical Premier League seasons for benchmarking.
+- Integrate external data sources, such as weather conditions, pitch dimensions, and match location, to account for contextual factors.
 
