@@ -6,8 +6,8 @@ This project is a comprehensive exploration of the Shot Creating Actions (SCA) a
 
 ### Data Sources 
 
-[Squad Goal and Shot Creation 2022-2023 Premier League](https://fbref.com/en/comps/9/2022-2023/gca/2022-2023-Premier-League-Stats) 
-[Player Goal and Shot Creation 2022-2023 Premier League](https://fbref.com/en/comps/9/2022-2023/gca/2022-2023-Premier-League-Stats)
+- [Squad Goal and Shot Creation 2022-2023 Premier League](https://fbref.com/en/comps/9/2022-2023/gca/2022-2023-Premier-League-Stats) 
+- [Player Goal and Shot Creation 2022-2023 Premier League](https://fbref.com/en/comps/9/2022-2023/gca/2022-2023-Premier-League-Stats)
 
 ## Objectives
 
