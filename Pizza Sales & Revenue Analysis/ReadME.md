@@ -24,8 +24,8 @@ This project is a comprehensive sales and revenue analysis for a pizza restauran
 
 ## Power BI Visualizations
 
-
-
+![Screenshot (35)](https://github.com/AAMIRP9/Data-Analysis-Portfolio/assets/91920656/4df73e7e-c80f-4179-bbbc-73544161be9d)
+![Screenshot (36)](https://github.com/AAMIRP9/Data-Analysis-Portfolio/assets/91920656/2dbd3546-5345-416c-85dd-6d7fc58fdc61)
 
 ### Limitations
 
