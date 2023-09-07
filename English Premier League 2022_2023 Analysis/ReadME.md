@@ -21,6 +21,7 @@ This project is a comprehensive exploration of the Shot Creating Actions (SCA) a
 - SQL Analysis: Utilizing SQL queries to extract and manipulate the SCA and GCA data for teams and players.
 - KPI Calculation: Deriving Key Performance Indicators (KPIs) to assess player and team contributions.
 - Comparative Analysis: Comparing and contrasting teams and players to reveal top performers.
+- Power Query
 - Power BI Visualization: Creating dynamic and interactive visualizations using Power BI to represent statistics, trends, and insights.
 
 ## Key Insights 
