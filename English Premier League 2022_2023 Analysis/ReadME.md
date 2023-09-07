@@ -40,8 +40,6 @@ This project is a comprehensive exploration of the Shot Creating Actions (SCA) a
 ![Screenshot (32)](https://github.com/AAMIRP9/Data-Analysis-Portfolio/assets/91920656/59058c9d-6b24-448e-b7c8-62c14543cae0)
 ![Screenshot (33)](https://github.com/AAMIRP9/Data-Analysis-Portfolio/assets/91920656/0345e422-7289-46e7-8805-9dcf3e744583)
 
-
-
 ### Limitations
 
 - SCA and GCA statistics may not fully capture the influence of team dynamics, strategies, or tactical changes on individual player performance.
