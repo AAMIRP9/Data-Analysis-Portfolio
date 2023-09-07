@@ -12,11 +12,15 @@ This project is a comprehensive sales and revenue analysis for a pizza restauran
 
 ## Tools & Components 
 
-SQL: Data Extraction, Cleaning, and Analysis.
-Power Query: Data Transformation and Preparation.
-Power BI: Data Visualization and Interactive Dashboards.
+- SQL: Data Extraction, Cleaning, and Analysis.
+- Power Query: Data Transformation and Preparation.
+- Power BI: Data Visualization and Interactive Dashboards.
 
 ## Key Insights 
+
+- The day with the highest orders is Friday as 3,500 of total orders were placed on that day.
+- The month with the highest orders is July as 1,935 of total orders were placed during that month.
+- The best selling pizzas are, The Thai Chicken Pizza & The Classic Deluxe Pizza. 
 
 
 ## Power BI Visualizations
