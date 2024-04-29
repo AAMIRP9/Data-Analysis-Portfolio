@@ -83,5 +83,3 @@ The analysis leverages three primary datasets:
 - **Interactive Dashboards:** Developing interactive dashboards to facilitate self-service exploration of data and insights by end-users.
 
 - **Scenario Analysis:** Conducting scenario-based analysis to assess the potential impact of hypothetical events or market scenarios on portfolio performance.
-
-- **Collaborative Analysis Frameworks:** Implementing collaborative analysis frameworks to foster interdisciplinary collaboration and knowledge sharing among team members.
