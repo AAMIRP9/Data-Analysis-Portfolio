@@ -36,7 +36,7 @@ The analysis leverages three primary datasets:
   
 - **Jupyter Notebook:** Execution of the analysis and visualization code.
 
-## Critical Report of the Analysis Process
+## Analysis Process
 
 ### Data Acquisition and Preparation
 
