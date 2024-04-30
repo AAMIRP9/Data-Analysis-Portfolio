@@ -64,7 +64,96 @@ The analysis leverages three primary datasets:
 
 ## Key Insights
 
+### Sector Distribution
 
+| Sector                  | Count |
+|-------------------------|-------|
+| Industrials             | 74    |
+| Information Technology  | 74    |
+| Financials              | 65    |
+| Health Care             | 64    |
+| Consumer Discretionary  | 63    |
+
+### Market Capitalization
+
+- **Average Market Capitalization:** $49.24 Billion USD
+- **Median Market Capitalization:** $21.40 Billion USD
+
+### Price & Earnings
+
+#### Companies with High Price/Earnings Ratios:
+| Name                            | Price/Earnings |
+|---------------------------------|----------------|
+| Advanced Micro Devices Inc     | 187.00         |
+| Amazon.com Inc                 | 296.16         |
+| Baker Hughes, a GE Company     | 305.56         |
+| Charter Communications         | 162.92         |
+| EOG Resources                  | 246.44         |
+| Netflix Inc.                   | 200.08         |
+| Occidental Petroleum           | 195.63         |
+| Pioneer Natural Resources      | 118.29         |
+| Salesforce.com                 | 520.15         |
+| SBA Communications             | 199.81         |
+| Vertex Pharmaceuticals Inc     | 252.67         |
+
+#### Companies with Low Price/Earnings Ratios:
+| Name                            | Price/Earnings |
+|---------------------------------|----------------|
+| Apache Corporation             | -251.53        |
+| Autodesk Inc                   | -77.07         |
+| CF Industries Holdings Inc     | -59.46         |
+| Incyte                          | -119.89        |
+| National Oilwell Varco Inc.    | -77.71         |
+
+### Dividend Yield
+
+#### Companies with High Dividend Yields:
+| Name                           | Dividend Yield |
+|--------------------------------|----------------|
+| AT&T Inc                       | 5.415651       |
+| CenturyLink Inc               | 12.661196      |
+| Ford Motor                    | 6.784387       |
+| HCP Inc.                      | 6.330197       |
+| Intercontinental Exchange     | 5.429864       |
+| Iron Mountain Incorporated    | 7.082580       |
+| Kimco Realty                  | 7.713499       |
+| Macy's Inc.                   | 6.098546       |
+| ONEOK                         | 5.443620       |
+| PPL Corp.                     | 5.219689       |
+| Realty Income Corporation     | 5.372036       |
+| SCANA Corp                    | 6.683033       |
+| Seagate Technology            | 5.085772       |
+| Simon Property Group Inc      | 5.036808       |
+| Southern Co.                  | 5.353023       |
+| Ventas Inc                    | 5.965641       |
+| Welltower Inc.                | 6.153846       |
+
+### 52 Week High/Low
+
+#### Companies Trading Near 52-Week Highs:
+| Name                | Price  | 52 Week High | 52 Week Low |
+|---------------------|--------|--------------|-------------|
+| Accenture plc      | 150.51 | 162.60       | 114.820     |
+| Adobe Systems Inc  | 185.16 | 204.45       | 114.451     |
+| Aetna Inc          | 178.00 | 194.40       | 119.510     |
+| AFLAC Inc          | 83.25  | 91.73        | 68.800      |
+| Amazon.com Inc     | 1350.50| 1498.00      | 812.500     |
+
+#### Companies Trading Near 52-Week Lows:
+| Name                                   | Price | 52 Week High | 52 Week Low |
+|----------------------------------------|-------|--------------|-------------|
+| Acuity Brands Inc                      | 145.41| 225.36       | 142.0000    |
+| AES Corp                               | 10.06 | 12.05        | 10.0000     |
+| Alaska Air Group Inc                   | 64.04 | 101.43       | 59.2500     |
+| Alexandria Real Estate Equities Inc    | 114.58| 134.37       | 106.8900    |
+| Allergan, Plc                          | 164.20| 256.80       | 160.0700    |
+
+#### Correlation Matrix:
+|             | Price       | 52 Week High | 52 Week Low  |
+|-------------|-------------|--------------|--------------|
+| **Price**         | 1.000000    | 0.995076     | 0.982787     |
+| **52 Week High**  | 0.995076    | 1.000000     | 0.984853     |
+| **52 Week Low**   | 0.982787    | 0.984853     | 1.000000     |
 
 ## Limitations
 
