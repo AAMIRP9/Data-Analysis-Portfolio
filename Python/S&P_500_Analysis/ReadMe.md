@@ -1,6 +1,6 @@
 # S&P 500 Analysis
 
-## Project Description
+## Project Description 
 
 This project offers a comprehensive analysis of the S&P 500, delving into various financial metrics and market trends. The analysis aims to provide valuable insights for investors, financial analysts, and anyone interested in understanding the dynamics of one of the world's leading stock market indices.
 
